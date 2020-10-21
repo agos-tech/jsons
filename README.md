@@ -82,6 +82,12 @@ list_of_tuples = jsons.load(some_dict, List[Tuple[AClass, AnotherClass]])
 
 # Meta
 
+## Local updates
+
+### 1.3.0+agos.1
+
+- Bugfix: Bypass the Union types when the object can be None.
+
 ## Recent updates
 
 ### 1.3.0
